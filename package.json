@@ -1,0 +1,47 @@
+{
+  "name": "react-pdf-experiments",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "@codesandbox/sandpack-react": "^2.10.0",
+    "@endo/static-module-record": "^0.8.2",
+    "@monaco-editor/react": "^4.6.0",
+    "@napi-rs/canvas": "^0.1.44",
+    "@react-hook/resize-observer": "^1.2.6",
+    "@react-pdf/renderer": "^3.1.14",
+    "@vercel/analytics": "^1.1.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "acorn": "^8.11.2",
+    "acorn-jsx": "^5.3.2",
+    "astring": "^1.8.6",
+    "canvas": "^2.11.2",
+    "estree-util-build-jsx": "^3.0.1",
+    "jotai": "^2.6.0",
+    "lz-string": "^1.5.0",
+    "next": "14.0.3",
+    "next-axiom": "^1.1.1",
+    "pdfjs-dist": "3.3.122",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-pdf-tailwind": "^2.1.0",
+    "react-resizable-panels": "0.0.63",
+    "react-suspense-fetch": "^0.6.0",
+    "scroll-into-view-if-needed": "^3.1.0",
+    "ses": "^0.18.8",
+    "use-constant": "^1.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-config-next": "^14.0.3",
+    "monaco-editor": "^0.44.0",
+    "patch-package": "^8.0.0"
+  },
+  "license": "ISC"
+}
